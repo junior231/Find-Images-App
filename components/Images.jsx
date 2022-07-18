@@ -15,7 +15,7 @@ const Images = () => {
       ) : null}
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 my-10 max-w-7xl mx-auto px-4">
-          {searchQuery.length > 0 ?  (
+          {searchQuery?.length > 0 ?  (
             response.map((data, key) => <ImageItem key={key} data={data} />)
           ) : (
             <div className="flex justify-center items-center">
