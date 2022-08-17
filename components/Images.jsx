@@ -20,7 +20,7 @@ const Images = () => {
           ) : null}
         </div>
       </div>
-      {searchQuery.length <= 0 ? (
+      {searchQuery?.length <= 0 ? (
          <h1 className="text-center mt-3 underline text-2xl">
          No Data Available
        </h1>
