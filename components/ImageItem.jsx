@@ -6,7 +6,6 @@ import { useContext } from "react";
 const ImageItem = ({ data }) => {
   const { isLoading, searchQuery } = useContext(ImageContext);
 
-
   return (
     <Link
       href={`category/${searchQuery}/${data.id}`}
