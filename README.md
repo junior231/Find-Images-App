@@ -1,6 +1,6 @@
 # Find Images App
 
-This is an app that allows a user find random images of any given keyword. Utilizing the Unsplash API, users can click on any image and get an in-depth description about the picture and author.
+This is an app that allows a user find random images of any inputted keyword. Utilizing the Unsplash API, users can click on any image and get an in-depth description about the picture and author.
 
 ## Requirements
 For development, you will need `node` and `npm` installed on your local machine.
